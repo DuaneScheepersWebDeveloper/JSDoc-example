@@ -1,5 +1,5 @@
 // @ts-nocheck
-const {add,subtract,divide,multiply} = require('./calculator');
+const { add, subtract, divide, multiply } = require("./calculator");
 
 /**
  * Student Name
@@ -13,14 +13,12 @@ const studentName = "John Smith";
  * Duane Scheepers</a>
  */
 
-
-
 /**
  * Array
  * @type {Array<number>}
  */
 const grades = [98, 89, 12.4, 3, 8];
-
+console.log("grades" + grades);
 /**
  * @type{{id:number, text:string|2}}
  */
@@ -90,21 +88,18 @@ class Person {
  * See {@link Person}
  */
 const person1 = new Person({
-    name:'Kyle',
-    age:30
+  name: "Kyle",
+  age: 30,
 });
 
 console.log(person1.greet());
 
-console.log(add(20,50));
+console.log(add(20, 50));
 
 /**
  * Free CodeCamp example
- * 
- * 
  */
 // import subtract from "./math_functions.js";
 // Only change code above this line
 // subtract(7,4);
-console.log(subtract(7,4));
-
+console.log(subtract(7, 4));
